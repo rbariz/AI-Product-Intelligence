@@ -21,3 +21,10 @@ Le projet commence par la définition de ses fondations conceptuelles avant tout
 ## Première lecture
 
 La lecture commence ici :
+
+docs/
+00-Constitution.md
+---
+
+*"Comprendre avant de générer."*
+
