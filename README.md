@@ -1,34 +1,33 @@
 # AI Product Intelligence
 
-> Le premier moteur capable de mesurer, expliquer et améliorer la compréhension d'un produit avant toute décision d'architecture.
+> AI Product Intelligence est un moteur de raisonnement capable de comprendre un produit, d'évaluer sa maturité et de 		recommander des architectures adaptées sur la base d'une connaissance structurée plutôt que d'un simple prompt.
+
+L'architecture n'est plus un point de départ. Elle devient une conséquence de la compréhension.
 
 > Comprendre. Raisonner. Décider. Avant de construire.
 
 
 
-          Idée Produit
-                 │
-                 ▼
-      Product Discovery Engine
-                 │
-                 ▼
-     Product Knowledge Model
-                 │
-                 ▼
-      Product Intelligence
-                 │
-      ┌──────────┼──────────┐
-      ▼          ▼          ▼
- Maturité   Contradictions  Hypothèses
-                 │
-                 ▼
-          Product DNA
-                 │
-                 ▼
-   Architecture Intelligence
-                 │
-                 ▼
- Recommandations expliquées
+                          Product Idea
+                      │
+                      ▼
+             Product Discovery
+                      │
+                      ▼
+          Product Knowledge Model
+                      │
+                      ▼
+          Product Intelligence Core
+      ┌──────────┬──────────┬──────────┐
+      ▼          ▼          ▼          ▼
+ Maturity   Contradictions Hypotheses Product DNA
+      └──────────┴──────────┴──────────┘
+                      │
+                      ▼
+      Architecture Intelligence
+                      │
+                      ▼
+      Explained Recommendations
 
 ## Vision
 
@@ -50,6 +49,30 @@ L'objectif est de comprendre le produit suffisamment bien pour recommander des a
 
 L'architecture est une conséquence de la compréhension.
 
+## Pourquoi ce projet ?
+
+Aujourd'hui, les IA génératives produisent rapidement des architectures à partir d'un prompt.
+
+Cependant, elles ne savent généralement pas répondre à des questions essentielles :
+
+- Avons-nous suffisamment compris le produit ?
+- Quelles informations sont encore manquantes ?
+- Quelles hypothèses influencent cette recommandation ?
+- Où se trouvent les contradictions ?
+- Pourquoi cette architecture est-elle préférable à une autre ?
+
+AI Product Intelligence répond d'abord à ces questions avant de proposer une architecture.
+
+## Principes
+
+Le projet repose sur cinq principes.
+
+- Comprendre avant de générer.
+- Raisonner avant de décider.
+- Expliquer chaque recommandation.
+- Mesurer la compréhension du produit.
+- Faire évoluer la connaissance en continu.
+
 ## État du projet
 
 🚧 Livre I — Fondations conceptuelles (en cours)
@@ -65,19 +88,37 @@ Le projet est actuellement consacré à la définition du Product Intelligence C
 
 ## Documentation
 
-La documentation est organisée comme un livre.
+### 📖 Livre I — Fondations
 
-### Livre I — Fondations
+Les documents du Livre I définissent les fondations intellectuelles du projet :
 
-00 — Constitution
+- Vision
+- Product Knowledge Model
+- Product Discovery
+- Product Reasoning
+- Product DNA
+- Product Intelligence Score
 
-01 — Qu'est-ce qu'un produit ?
+Le Livre II décrira l'architecture du Product Intelligence Core.
 
-02 — Product Knowledge Model
+Le Livre III décrira l'implémentation.
 
-...
+## À terme, la plateforme sera capable de :
 
-15 — Product Intelligence Score
+✔ Comprendre automatiquement un produit
 
-Les livres suivants décriront progressivement l'architecture logicielle et l'implémentation.
+✔ Construire un Product Knowledge Model
 
+✔ Détecter les contradictions
+
+✔ Identifier les informations manquantes
+
+✔ Générer des hypothèses explicables
+
+✔ Calculer un Product Intelligence Score
+
+✔ Déduire un Product DNA
+
+✔ Recommander plusieurs architectures argumentées
+
+✔ Simuler l'impact d'une évolution du produit
